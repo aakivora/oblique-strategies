@@ -18,6 +18,7 @@ const strategies = [
 "The peace you are looking for is in the work you are avoiding"
 "Stop negotiating with yourself"
 "Listen to your favourite song"
+"There is no road. We make the road by walking"
 "You don't have to be ashamed of using your own ideas",
     ""
 ]
