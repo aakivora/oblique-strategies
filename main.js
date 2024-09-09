@@ -21,8 +21,8 @@ const strategies = [
 "There is no road. We make the road by walking",
 "You don't have to be ashamed of using your own ideas",
 "Ask for feedback", 
-"Stop focusing on the outcome"
-"Trust the process"
+"Stop focusing on the outcome",
+"Trust the process",
     ""
 ]
 
