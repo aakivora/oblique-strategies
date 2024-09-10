@@ -23,6 +23,7 @@ const strategies = [
 "Ask for feedback", 
 "Stop focusing on the outcome",
 "Trust the process",
+"Impatience is an argument with reality",
     ""
 ]
 
