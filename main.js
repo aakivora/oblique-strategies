@@ -27,7 +27,7 @@ const strategies = [
 "Honour thy error as a hidden intention",
 "Less, but better",
 "Brevity is the essence of wit",
-"Brick by brick",
+"One thing at a time",
 "Repitition is a form of change",
 "What would your closest friend do?",
 "What are you over emphasizing right now?",
@@ -35,7 +35,18 @@ const strategies = [
 "Can this scale?",
 "Take away the elements in order of apparent non-importance",
 "Ask your body",
-    ""
+"It will never be perfect"
+"Draw",
+"If we live in a mindset of scarcity, we hoard great ideas",
+"What assumptions are you making?",
+"Anything is figureoutable",
+"Take a long shot",
+"Read the pale blue dot",
+"Play a few rounds of Conway's Game of Life",
+"Write how you feel",
+"Good design is as little design as possible",
+"How can it be better?",
+"How can you gain momentum?",
 ]
 
 //test font size
