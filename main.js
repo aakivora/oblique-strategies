@@ -35,7 +35,7 @@ const strategies = [
 "Can this scale?",
 "Take away the elements in order of apparent non-importance",
 "Ask your body",
-"It will never be perfect"
+"It will never be perfect",
 "Draw",
 "If we live in a mindset of scarcity, we hoard great ideas",
 "What assumptions are you making?",
