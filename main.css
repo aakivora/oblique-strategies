@@ -137,10 +137,10 @@ body {
   justify-content: center;
 }
 
-div p.hide {
-  /*visibility: hidden;*/
+/*div p.hide {
+  /*visibility: hidden;
   color: #F3F3F3;
-}
+}*/
 
 /*.container {*/
 /*  height: 100%;*/
@@ -179,7 +179,7 @@ footer a {
 footer a:hover {
   text-decoration: underline;
   color: #000000;
-  /*transition: color 0.5s*/;
+  transition: color 0.5s;
 }
 
 .about a {
