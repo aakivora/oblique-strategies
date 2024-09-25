@@ -72,6 +72,7 @@ body {
 .oblique-strategies {
     font-size: 32px; /* Larger font size for OBLIQUE STRATEGIES */
     font-weight: 900; /* Bold for emphasis */
+    font-style: oblique
     color: #FFF; /* White color */
 }
 
