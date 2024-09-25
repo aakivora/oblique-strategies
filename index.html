@@ -14,14 +14,15 @@
             height: 100vh;
             background-color: black; /* Same background color as before */
             text-align: center;
-            font-family: 'Helvetica', sans-serif;
+            font-family: 'Consolas', monospace;
             margin: 0;
         }
         .landing-content {
             mmax-width: 600px; /* Optional: set max width */
-            margin: 0 50px; /* Optional: add side margins */
+            margin: 0 20px; /* Optional: add side margins */
             padding: 5px; /* Add some padding */
             min-height: 75vh; /* Set minimum height for centering */
+            flex:1;
             display: flex;
             flex-direction: column; /* Stack children vertically */
             justify-content: center; /* Center content vertically within this div */
@@ -34,6 +35,7 @@
             font-size: 18px;
             color: white; /* Dark color for text */
             margin: 20px 0; /* Margin around the paragraph */
+            line-height: 1.5;
         }
         .landing-content a {
             padding: 0;
@@ -46,10 +48,12 @@
         .hover-link {
             text-decoration: underline;
             color: inherit; /* Keeps the inherited color for the normal state */
+            transition: color 0.3s ease;
         }
 
         .hover-link:hover {
-        color: #FFBF00; /* Changes the text color to orange on hover */
+            color: #FFBF00; /* Changes the text color to orange on hover */
+            text-decoration: underline;
         }
 
           .arrow-button {
@@ -77,23 +81,20 @@
             width: 100%;
             position: relative;
         }
-
-        footer a {
-            color: white; /* Link color */
-            text-decoration: none; /* Remove underline */
-        }
-
     </style>
 </head>
 <body>
     <div class="landing-content">
-        <p>I was deeply inspired by the generative documentary <a href="https://www.hustwit.com/eno" class="hover-link">Eno by Gary Hustwit</a>. </br> In the film there are several clips on Brian Eno's Oblique Strategies, </br>
-            which are a set of cards designed to break creative blocks and encourage lateral thinking. </br>These sparked my curiosity so much that </br> I decided to
-            make my own, perhaps slightly less inspiring, version.</br> If you're feeling stuck today, I hope this helps.</p>
+        <p>I was deeply inspired by the generative documentary <a href="https://www.hustwit.com/eno" class="hover-link">Eno by Gary Hustwit</a>. 
+            In the film there are several clips on Brian Eno's Oblique Strategies,
+            which are a set of cards designed to break creative blocks and encourage lateral thinking. 
+            These sparked my curiosity so much that </br> I decided to
+            make my own, perhaps slightly less inspiring, version.
+            If you're feeling stuck today, I hope this helps.</p>
         <a href="cards.html" class="arrow-button">---></a> <!-- Link to the card page -->
     </div>
-</body>
- <footer>
+     <footer>
         <p><i>"Stop thinking about art works as objects, and start thinking about them as triggers for experiences."</i> - Eno</p>
- </footer>
+     </footer>
+</body>
 </html>
