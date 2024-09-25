@@ -63,6 +63,18 @@ body {
   justify-content: center;
 }
 
+.aaki {
+    font-size: 20px; /* Smaller font size for AAKI'S */
+    font-weight: 900; /* Optional: make it bold */
+    color: #FFF; /* White color */
+}
+
+.oblique-strategies {
+    font-size: 32px; /* Larger font size for OBLIQUE STRATEGIES */
+    font-weight: 900; /* Bold for emphasis */
+    color: #FFF; /* White color */
+}
+
 .card__face--back {
   background-color: var(--light);
   transform: rotateY(180deg);
