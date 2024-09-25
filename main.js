@@ -42,9 +42,16 @@ const strategies = [
 
 // const strategies = ["Short circuit (example; a man eating peas with the idea that they will improve his virility shovels them straight into his lap)"]
 
+let lastStrat = ""; // Variable to store the last displayed strategy
+
 const randomStrat = () => {
-  const strat = strategies[Math.floor(Math.random() * strategies.length)];
+  let strat = "";
+  // Keep selecting until we get a strategy that's different from the last one
+  while (!strat || strat === lastStrat) {
+    strat = strategies[Math.floor(Math.random() * strategies.length)];
+  }
   input.innerText = strat;
+  lastStrat = strat; // Store the current strategy as the last one
 }
 
 card.addEventListener("click", (e) => {
