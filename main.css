@@ -59,6 +59,7 @@ body {
 .card__face--front h2 {
   color: #FFF;
   font-size: 32px;
+  text-align: center;
   justify-content: center;
 }
 
