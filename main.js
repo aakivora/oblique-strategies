@@ -53,9 +53,9 @@ card.addEventListener("click", (e) => {
   randomStrat();
 });
 
-setTimeout(function(){
+/*setTimeout(function(){
     footer.style.color = "#FDFBF3";
-}, 3000)
+}, 3000)*/
 
 footer.addEventListener('mouseover', () => {
     footer.style.color = 'black';
