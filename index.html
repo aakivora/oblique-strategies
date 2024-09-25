@@ -12,7 +12,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f3f3f3; /* Same background color as before */
+            background-color: black; /* Same background color as before */
             text-align: center;
             font-family: 'Helvetica', sans-serif;
             margin: 0;
@@ -28,7 +28,7 @@
         }
         .landing-content h1 {
             font-size: 36px;
-            color: #212121; /* Dark color for text */
+            color: white; /* Dark color for text */
         }
         .landing-content p {
             font-size: 18px;
@@ -42,6 +42,15 @@
         /*.landing-content a:hover {
             background-color: #0056b3; /* Darker button color on hover 
         }*/
+
+        .hover-link {
+            text-decoration: underline;
+            color: inherit; /* Keeps the inherited color for the normal state */
+        }
+
+        .hover-link:hover {
+        color: #FFBF00; /* Changes the text color to orange on hover */
+        }
 
           .arrow-button {
             display: inline-block;
@@ -78,7 +87,7 @@
 </head>
 <body>
     <div class="landing-content">
-        <p>I was deeply inspired by the generative documentary <a href="https://www.hustwit.com/eno" style="text-decoration: underline; color: inherit;">Eno by Gary Hustwit</a>. In the film there are several clips on Brian Eno's Oblique Strategies,
+        <p>I was deeply inspired by the generative documentary <a href="https://www.hustwit.com/eno" class="hover-link">Eno by Gary Hustwit</a>. In the film there are several clips on Brian Eno's Oblique Strategies,
             which are a set of cards designed to break creative blocks and encourage lateral thinking. These sparked my curiosity so much that I decided to
             make my own, perhaps slightly less inspiring, version. If you're feeling stuck today, I hope this helps.</p>
         <a href="cards.html" class="arrow-button">---></a> <!-- Link to the card page -->
