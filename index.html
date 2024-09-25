@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Aaki's Oblique Strategies</title>
+    <title>Aaki's Oblique Strategies</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS -->
     <style>
         body {
@@ -29,21 +29,35 @@
         }
         .landing-content a {
             padding: 10px 20px;
-            background-color: #007BFF; /* Button color */
-            color: white; /* Button text color */
             text-decoration: none;
             border-radius: 5px;
         }
         .landing-content a:hover {
             background-color: #0056b3; /* Darker button color on hover */
         }
+
+          .arrow-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 24px;
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF; /* You can change the color */
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .arrow-button:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
     </style>
 </head>
 <body>
     <div class="landing-content">
-        <h1>Welcome to Aaki's Oblique Strategies</h1>
-        <p>Click the button below to explore the strategies and flip the cards!</p>
-        <a href="cards.html">Go to Strategies</a> <!-- Link to the card page -->
+        <p>I was deeply inspired by the generative documentary Eno made by Gary Hustwit. In the film there are several clips on Brian Eno's Oblique Strategies,
+            which are a set of cards designed to break creative blocks and encourage lateral thinking. These sparked my curiosity so much that I decided to
+            make my own, perhaps slightly less inspiring, version. If you're feeling stuck today, I hope this helps.</p>
+        <a href="cards.html" class="arrow-button">---></a> <!-- Link to the card page -->
     </div>
 </body>
 </html>
